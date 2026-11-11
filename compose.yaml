@@ -1,0 +1,30 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    volumes:
+      - ./data:/workspace/data:ro
+      - ./artifacts:/workspace/artifacts:ro
+    restart: unless-stopped
+  web:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+  train:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    profiles: [training]
+    user: "0:0"
+    volumes:
+      - ./data:/workspace/data:ro
+      - ./artifacts:/workspace/artifacts
+      - ./data/raw:/raw:ro
+    command: ["python", "-m", "afterlight.train", "--epochs", "40", "--size", "128"]

@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.venv/
+**/node_modules/
+**/__pycache__/
+**/dist/
+*.tsbuildinfo
+output/
+data/raw/
+data/scenes/
+artifacts/*.pt
+artifacts/*.joblib

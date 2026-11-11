@@ -1,0 +1,1204 @@
+{
+  "provenance": {
+    "name": "xBD pilot subset",
+    "authors": "Gupta et al. / DIU / CMU SEI; imagery: Maxar Open Data Program",
+    "source": "https://huggingface.co/datasets/kshitijrajsharma/xview2-xbd",
+    "mirror_revision": "079adbab22aa09633dfd50ece0dd0137431a9780",
+    "source_shard": "data/train-00000-of-00017.parquet",
+    "source_sha256": "cbca8c79c29c324398670a9fd354e2189d1ec77f248cf36a8cd1c12f0d1d71fc",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "transforms": "Selected at most 8 tiles per event from first training shard; RGB downsampled 1024 to 512, masks nearest-neighbour; IDs >4 ignored as 255. Training/evaluation resized again to model resolution.",
+    "scope": "Small convenience sample. Event-disjoint custom pilot splits; NOT official xView2 train/test or challenge score. No accuracy claims outside this subset."
+  },
+  "samples": [
+    {
+      "id": "socal-fire_00000106",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00000106_pre.png",
+      "post": "scenes/socal-fire_00000106_post.png",
+      "mask": "scenes/socal-fire_00000106_mask.png",
+      "class_pixels": [
+        261631,
+        0,
+        0,
+        0,
+        513
+      ]
+    },
+    {
+      "id": "socal-fire_00001381",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00001381_pre.png",
+      "post": "scenes/socal-fire_00001381_post.png",
+      "mask": "scenes/socal-fire_00001381_mask.png",
+      "class_pixels": [
+        262144,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000172",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000172_pre.png",
+      "post": "scenes/hurricane-michael_00000172_post.png",
+      "mask": "scenes/hurricane-michael_00000172_mask.png",
+      "class_pixels": [
+        225190,
+        24430,
+        11099,
+        1425,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000476",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000476_pre.png",
+      "post": "scenes/hurricane-michael_00000476_post.png",
+      "mask": "scenes/hurricane-michael_00000476_mask.png",
+      "class_pixels": [
+        231931,
+        29607,
+        606,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "socal-fire_00001058",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00001058_pre.png",
+      "post": "scenes/socal-fire_00001058_post.png",
+      "mask": "scenes/socal-fire_00001058_mask.png",
+      "class_pixels": [
+        246981,
+        12033,
+        0,
+        0,
+        3130
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000189",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000189_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000189_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000189_mask.png",
+      "class_pixels": [
+        213388,
+        39178,
+        0,
+        864,
+        8714
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000208",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000208_pre.png",
+      "post": "scenes/hurricane-harvey_00000208_post.png",
+      "mask": "scenes/hurricane-harvey_00000208_mask.png",
+      "class_pixels": [
+        262144,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000235",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000235_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000235_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000235_mask.png",
+      "class_pixels": [
+        252193,
+        2707,
+        0,
+        0,
+        7244
+      ]
+    },
+    {
+      "id": "socal-fire_00001301",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00001301_pre.png",
+      "post": "scenes/socal-fire_00001301_post.png",
+      "mask": "scenes/socal-fire_00001301_mask.png",
+      "class_pixels": [
+        262144,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "socal-fire_00000880",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00000880_pre.png",
+      "post": "scenes/socal-fire_00000880_post.png",
+      "mask": "scenes/socal-fire_00000880_mask.png",
+      "class_pixels": [
+        232505,
+        29639,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000386",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000386_pre.png",
+      "post": "scenes/midwest-flooding_00000386_post.png",
+      "mask": "scenes/midwest-flooding_00000386_mask.png",
+      "class_pixels": [
+        260849,
+        1295,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000072",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000072_pre.png",
+      "post": "scenes/hurricane-matthew_00000072_post.png",
+      "mask": "scenes/hurricane-matthew_00000072_mask.png",
+      "class_pixels": [
+        253137,
+        0,
+        8066,
+        941,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000426",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000426_pre.png",
+      "post": "scenes/hurricane-harvey_00000426_post.png",
+      "mask": "scenes/hurricane-harvey_00000426_mask.png",
+      "class_pixels": [
+        177685,
+        0,
+        1142,
+        83317,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000366",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000366_pre.png",
+      "post": "scenes/hurricane-matthew_00000366_post.png",
+      "mask": "scenes/hurricane-matthew_00000366_mask.png",
+      "class_pixels": [
+        261507,
+        0,
+        131,
+        89,
+        417
+      ]
+    },
+    {
+      "id": "socal-fire_00000146",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00000146_pre.png",
+      "post": "scenes/socal-fire_00000146_post.png",
+      "mask": "scenes/socal-fire_00000146_mask.png",
+      "class_pixels": [
+        252794,
+        9350,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000211",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000211_pre.png",
+      "post": "scenes/hurricane-matthew_00000211_post.png",
+      "mask": "scenes/hurricane-matthew_00000211_mask.png",
+      "class_pixels": [
+        260641,
+        0,
+        383,
+        198,
+        922
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000324",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000324_pre.png",
+      "post": "scenes/hurricane-michael_00000324_post.png",
+      "mask": "scenes/hurricane-michael_00000324_mask.png",
+      "class_pixels": [
+        254181,
+        7771,
+        192,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000298",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000298_pre.png",
+      "post": "scenes/hurricane-florence_00000298_post.png",
+      "mask": "scenes/hurricane-florence_00000298_mask.png",
+      "class_pixels": [
+        258280,
+        3864,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "mexico-earthquake_00000096",
+      "event": "mexico-earthquake",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/mexico-earthquake_00000096_pre.png",
+      "post": "scenes/mexico-earthquake_00000096_post.png",
+      "mask": "scenes/mexico-earthquake_00000096_mask.png",
+      "class_pixels": [
+        260739,
+        1405,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "socal-fire_00000436",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00000436_pre.png",
+      "post": "scenes/socal-fire_00000436_post.png",
+      "mask": "scenes/socal-fire_00000436_mask.png",
+      "class_pixels": [
+        259589,
+        986,
+        0,
+        0,
+        1569
+      ]
+    },
+    {
+      "id": "socal-fire_00000910",
+      "event": "socal-fire",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/socal-fire_00000910_pre.png",
+      "post": "scenes/socal-fire_00000910_post.png",
+      "mask": "scenes/socal-fire_00000910_mask.png",
+      "class_pixels": [
+        262144,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000308",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000308_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000308_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000308_mask.png",
+      "class_pixels": [
+        258381,
+        0,
+        0,
+        0,
+        3763
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000024",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000024_pre.png",
+      "post": "scenes/hurricane-harvey_00000024_post.png",
+      "mask": "scenes/hurricane-harvey_00000024_mask.png",
+      "class_pixels": [
+        174002,
+        88142,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000277",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000277_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000277_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000277_mask.png",
+      "class_pixels": [
+        256876,
+        715,
+        100,
+        270,
+        4183
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000293",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000293_pre.png",
+      "post": "scenes/midwest-flooding_00000293_post.png",
+      "mask": "scenes/midwest-flooding_00000293_mask.png",
+      "class_pixels": [
+        261701,
+        200,
+        243,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000443",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000443_pre.png",
+      "post": "scenes/hurricane-harvey_00000443_post.png",
+      "mask": "scenes/hurricane-harvey_00000443_mask.png",
+      "class_pixels": [
+        170261,
+        62901,
+        28982,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000054",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000054_pre.png",
+      "post": "scenes/hurricane-harvey_00000054_post.png",
+      "mask": "scenes/hurricane-harvey_00000054_mask.png",
+      "class_pixels": [
+        261862,
+        0,
+        0,
+        282,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000039",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000039_pre.png",
+      "post": "scenes/hurricane-harvey_00000039_post.png",
+      "mask": "scenes/hurricane-harvey_00000039_mask.png",
+      "class_pixels": [
+        259908,
+        0,
+        974,
+        1262,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000273",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000273_pre.png",
+      "post": "scenes/hurricane-harvey_00000273_post.png",
+      "mask": "scenes/hurricane-harvey_00000273_mask.png",
+      "class_pixels": [
+        262144,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "palu-tsunami_00000084",
+      "event": "palu-tsunami",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/palu-tsunami_00000084_pre.png",
+      "post": "scenes/palu-tsunami_00000084_post.png",
+      "mask": "scenes/palu-tsunami_00000084_mask.png",
+      "class_pixels": [
+        124552,
+        137592,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000351",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000351_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000351_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000351_mask.png",
+      "class_pixels": [
+        253864,
+        4267,
+        0,
+        0,
+        4013
+      ]
+    },
+    {
+      "id": "hurricane-harvey_00000495",
+      "event": "hurricane-harvey",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-harvey_00000495_pre.png",
+      "post": "scenes/hurricane-harvey_00000495_post.png",
+      "mask": "scenes/hurricane-harvey_00000495_mask.png",
+      "class_pixels": [
+        170660,
+        87829,
+        3310,
+        345,
+        0
+      ]
+    },
+    {
+      "id": "palu-tsunami_00000148",
+      "event": "palu-tsunami",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/palu-tsunami_00000148_pre.png",
+      "post": "scenes/palu-tsunami_00000148_post.png",
+      "mask": "scenes/palu-tsunami_00000148_mask.png",
+      "class_pixels": [
+        258754,
+        853,
+        0,
+        1012,
+        1525
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000516",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000516_pre.png",
+      "post": "scenes/hurricane-michael_00000516_post.png",
+      "mask": "scenes/hurricane-michael_00000516_mask.png",
+      "class_pixels": [
+        226474,
+        29536,
+        4449,
+        1196,
+        489
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000056",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000056_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000056_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000056_mask.png",
+      "class_pixels": [
+        254323,
+        3276,
+        760,
+        0,
+        3785
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000340",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000340_pre.png",
+      "post": "scenes/midwest-flooding_00000340_post.png",
+      "mask": "scenes/midwest-flooding_00000340_mask.png",
+      "class_pixels": [
+        240899,
+        0,
+        1507,
+        15543,
+        4195
+      ]
+    },
+    {
+      "id": "mexico-earthquake_00000079",
+      "event": "mexico-earthquake",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/mexico-earthquake_00000079_pre.png",
+      "post": "scenes/mexico-earthquake_00000079_post.png",
+      "mask": "scenes/mexico-earthquake_00000079_mask.png",
+      "class_pixels": [
+        146700,
+        115444,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000431",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000431_pre.png",
+      "post": "scenes/midwest-flooding_00000431_post.png",
+      "mask": "scenes/midwest-flooding_00000431_mask.png",
+      "class_pixels": [
+        257884,
+        4260,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000329",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000329_pre.png",
+      "post": "scenes/hurricane-matthew_00000329_post.png",
+      "mask": "scenes/hurricane-matthew_00000329_mask.png",
+      "class_pixels": [
+        259777,
+        0,
+        1333,
+        870,
+        164
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000299",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000299_pre.png",
+      "post": "scenes/hurricane-michael_00000299_post.png",
+      "mask": "scenes/hurricane-michael_00000299_mask.png",
+      "class_pixels": [
+        232639,
+        13298,
+        8484,
+        7200,
+        523
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000444",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000444_pre.png",
+      "post": "scenes/hurricane-florence_00000444_post.png",
+      "mask": "scenes/hurricane-florence_00000444_mask.png",
+      "class_pixels": [
+        257725,
+        4322,
+        0,
+        97,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000091",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000091_pre.png",
+      "post": "scenes/hurricane-florence_00000091_post.png",
+      "mask": "scenes/hurricane-florence_00000091_mask.png",
+      "class_pixels": [
+        228342,
+        33802,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000313",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000313_pre.png",
+      "post": "scenes/midwest-flooding_00000313_post.png",
+      "mask": "scenes/midwest-flooding_00000313_mask.png",
+      "class_pixels": [
+        251530,
+        10614,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000176",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000176_pre.png",
+      "post": "scenes/hurricane-matthew_00000176_post.png",
+      "mask": "scenes/hurricane-matthew_00000176_mask.png",
+      "class_pixels": [
+        261024,
+        0,
+        233,
+        197,
+        690
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000039",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000039_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000039_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000039_mask.png",
+      "class_pixels": [
+        227191,
+        27286,
+        0,
+        0,
+        7667
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000446",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000446_pre.png",
+      "post": "scenes/hurricane-michael_00000446_post.png",
+      "mask": "scenes/hurricane-michael_00000446_mask.png",
+      "class_pixels": [
+        235603,
+        17052,
+        4606,
+        4883,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000369",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000369_pre.png",
+      "post": "scenes/hurricane-matthew_00000369_post.png",
+      "mask": "scenes/hurricane-matthew_00000369_mask.png",
+      "class_pixels": [
+        261208,
+        0,
+        259,
+        342,
+        335
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000391",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000391_pre.png",
+      "post": "scenes/midwest-flooding_00000391_post.png",
+      "mask": "scenes/midwest-flooding_00000391_mask.png",
+      "class_pixels": [
+        261952,
+        0,
+        192,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000387",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000387_pre.png",
+      "post": "scenes/hurricane-florence_00000387_post.png",
+      "mask": "scenes/hurricane-florence_00000387_mask.png",
+      "class_pixels": [
+        246884,
+        15260,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "santa-rosa-wildfire_00000129",
+      "event": "santa-rosa-wildfire",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/santa-rosa-wildfire_00000129_pre.png",
+      "post": "scenes/santa-rosa-wildfire_00000129_post.png",
+      "mask": "scenes/santa-rosa-wildfire_00000129_mask.png",
+      "class_pixels": [
+        216267,
+        4788,
+        149,
+        0,
+        40940
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000414",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000414_pre.png",
+      "post": "scenes/hurricane-florence_00000414_post.png",
+      "mask": "scenes/hurricane-florence_00000414_mask.png",
+      "class_pixels": [
+        261189,
+        0,
+        0,
+        955,
+        0
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000188",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000188_pre.png",
+      "post": "scenes/midwest-flooding_00000188_post.png",
+      "mask": "scenes/midwest-flooding_00000188_mask.png",
+      "class_pixels": [
+        262144,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000400",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000400_pre.png",
+      "post": "scenes/hurricane-matthew_00000400_post.png",
+      "mask": "scenes/hurricane-matthew_00000400_mask.png",
+      "class_pixels": [
+        256707,
+        0,
+        0,
+        1368,
+        4069
+      ]
+    },
+    {
+      "id": "mexico-earthquake_00000126",
+      "event": "mexico-earthquake",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/mexico-earthquake_00000126_pre.png",
+      "post": "scenes/mexico-earthquake_00000126_post.png",
+      "mask": "scenes/mexico-earthquake_00000126_mask.png",
+      "class_pixels": [
+        174963,
+        87181,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "midwest-flooding_00000162",
+      "event": "midwest-flooding",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/midwest-flooding_00000162_pre.png",
+      "post": "scenes/midwest-flooding_00000162_post.png",
+      "mask": "scenes/midwest-flooding_00000162_mask.png",
+      "class_pixels": [
+        261874,
+        270,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-matthew_00000090",
+      "event": "hurricane-matthew",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-matthew_00000090_pre.png",
+      "post": "scenes/hurricane-matthew_00000090_post.png",
+      "mask": "scenes/hurricane-matthew_00000090_mask.png",
+      "class_pixels": [
+        256748,
+        0,
+        4099,
+        1056,
+        241
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000379",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000379_pre.png",
+      "post": "scenes/hurricane-florence_00000379_post.png",
+      "mask": "scenes/hurricane-florence_00000379_mask.png",
+      "class_pixels": [
+        261083,
+        345,
+        0,
+        716,
+        0
+      ]
+    },
+    {
+      "id": "mexico-earthquake_00000074",
+      "event": "mexico-earthquake",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/mexico-earthquake_00000074_pre.png",
+      "post": "scenes/mexico-earthquake_00000074_post.png",
+      "mask": "scenes/mexico-earthquake_00000074_mask.png",
+      "class_pixels": [
+        161650,
+        98486,
+        2008,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000347",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000347_pre.png",
+      "post": "scenes/hurricane-michael_00000347_post.png",
+      "mask": "scenes/hurricane-michael_00000347_mask.png",
+      "class_pixels": [
+        246893,
+        9434,
+        5135,
+        682,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000477",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000477_pre.png",
+      "post": "scenes/hurricane-florence_00000477_post.png",
+      "mask": "scenes/hurricane-florence_00000477_mask.png",
+      "class_pixels": [
+        260029,
+        1797,
+        318,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "palu-tsunami_00000020",
+      "event": "palu-tsunami",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/palu-tsunami_00000020_pre.png",
+      "post": "scenes/palu-tsunami_00000020_post.png",
+      "mask": "scenes/palu-tsunami_00000020_mask.png",
+      "class_pixels": [
+        245906,
+        3887,
+        0,
+        1092,
+        11259
+      ]
+    },
+    {
+      "id": "hurricane-michael_00000047",
+      "event": "hurricane-michael",
+      "split": "test",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-michael_00000047_pre.png",
+      "post": "scenes/hurricane-michael_00000047_post.png",
+      "mask": "scenes/hurricane-michael_00000047_mask.png",
+      "class_pixels": [
+        258416,
+        1458,
+        873,
+        1397,
+        0
+      ]
+    },
+    {
+      "id": "hurricane-florence_00000151",
+      "event": "hurricane-florence",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/hurricane-florence_00000151_pre.png",
+      "post": "scenes/hurricane-florence_00000151_post.png",
+      "mask": "scenes/hurricane-florence_00000151_mask.png",
+      "class_pixels": [
+        260514,
+        0,
+        0,
+        1630,
+        0
+      ]
+    },
+    {
+      "id": "palu-tsunami_00000090",
+      "event": "palu-tsunami",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/palu-tsunami_00000090_pre.png",
+      "post": "scenes/palu-tsunami_00000090_post.png",
+      "mask": "scenes/palu-tsunami_00000090_mask.png",
+      "class_pixels": [
+        237012,
+        25033,
+        0,
+        99,
+        0
+      ]
+    },
+    {
+      "id": "palu-tsunami_00000145",
+      "event": "palu-tsunami",
+      "split": "train",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/palu-tsunami_00000145_pre.png",
+      "post": "scenes/palu-tsunami_00000145_post.png",
+      "mask": "scenes/palu-tsunami_00000145_mask.png",
+      "class_pixels": [
+        259024,
+        1662,
+        0,
+        942,
+        516
+      ]
+    },
+    {
+      "id": "mexico-earthquake_00000030",
+      "event": "mexico-earthquake",
+      "split": "validation",
+      "source": "xBD / xView2",
+      "resolution": 512,
+      "original_resolution": 1024,
+      "pre": "scenes/mexico-earthquake_00000030_pre.png",
+      "post": "scenes/mexico-earthquake_00000030_post.png",
+      "mask": "scenes/mexico-earthquake_00000030_mask.png",
+      "class_pixels": [
+        179461,
+        82683,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

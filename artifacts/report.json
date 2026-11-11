@@ -1,0 +1,362 @@
+{
+  "created_at": "2026-11-11T18:14:03.620417+00:00",
+  "scope": "Small-sample research pilot, not a validated disaster-response system",
+  "seed": 42,
+  "size": 128,
+  "epochs": 40,
+  "seconds": 68.96,
+  "dataset_hash": "ddd099843ed2c60e5cb5a52224b81e9472724abc94e8b4a5faf1c4f932616a09",
+  "splits": {
+    "train": 37,
+    "validation": 13,
+    "test": 16
+  },
+  "events": {
+    "train": [
+      "hurricane-florence",
+      "hurricane-harvey",
+      "hurricane-matthew",
+      "palu-tsunami",
+      "socal-fire"
+    ],
+    "validation": [
+      "mexico-earthquake",
+      "midwest-flooding"
+    ],
+    "test": [
+      "hurricane-michael",
+      "santa-rosa-wildfire"
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.731478288366988,
+      "validation_macro_f1": 0.01722837301147079
+    },
+    {
+      "epoch": 2,
+      "loss": 1.5937710404396057,
+      "validation_macro_f1": 0.006590688196216494
+    },
+    {
+      "epoch": 3,
+      "loss": 1.5400034285880424,
+      "validation_macro_f1": 0.04430464689600826
+    },
+    {
+      "epoch": 4,
+      "loss": 1.5439333867382359,
+      "validation_macro_f1": 0.04417714764688346
+    },
+    {
+      "epoch": 5,
+      "loss": 1.4888052344322205,
+      "validation_macro_f1": 0.06082902439502218
+    },
+    {
+      "epoch": 6,
+      "loss": 1.4304630160331726,
+      "validation_macro_f1": 0.04573477711139711
+    },
+    {
+      "epoch": 7,
+      "loss": 1.405760402615006,
+      "validation_macro_f1": 0.09688023720510507
+    },
+    {
+      "epoch": 8,
+      "loss": 1.4372642845720858,
+      "validation_macro_f1": 0.0783953094030849
+    },
+    {
+      "epoch": 9,
+      "loss": 1.392798667018478,
+      "validation_macro_f1": 0.05780306790586036
+    },
+    {
+      "epoch": 10,
+      "loss": 1.4338737806758366,
+      "validation_macro_f1": 0.0693369017304994
+    },
+    {
+      "epoch": 11,
+      "loss": 1.3752299305554982,
+      "validation_macro_f1": 0.0737859620561835
+    },
+    {
+      "epoch": 12,
+      "loss": 1.361105968823304,
+      "validation_macro_f1": 0.09606318978994403
+    },
+    {
+      "epoch": 13,
+      "loss": 1.405319911402625,
+      "validation_macro_f1": 0.04747163375990403
+    },
+    {
+      "epoch": 14,
+      "loss": 1.383398325056643,
+      "validation_macro_f1": 0.045512030132472
+    },
+    {
+      "epoch": 15,
+      "loss": 1.370681397012762,
+      "validation_macro_f1": 0.03682732645199136
+    },
+    {
+      "epoch": 16,
+      "loss": 1.385536855942494,
+      "validation_macro_f1": 0.0464317619379132
+    },
+    {
+      "epoch": 17,
+      "loss": 1.3084486416868262,
+      "validation_macro_f1": 0.016105243833144
+    },
+    {
+      "epoch": 18,
+      "loss": 1.3168269057531614,
+      "validation_macro_f1": 0.07311864016861806
+    },
+    {
+      "epoch": 19,
+      "loss": 1.2888110731099103,
+      "validation_macro_f1": 0.09495993492157175
+    },
+    {
+      "epoch": 20,
+      "loss": 1.291177156809214,
+      "validation_macro_f1": 0.1366557276407656
+    },
+    {
+      "epoch": 21,
+      "loss": 1.3149622098819629,
+      "validation_macro_f1": 0.055419446014697574
+    },
+    {
+      "epoch": 22,
+      "loss": 1.262223327482069,
+      "validation_macro_f1": 0.10390556845891641
+    },
+    {
+      "epoch": 23,
+      "loss": 1.261088891609295,
+      "validation_macro_f1": 0.1438707904880217
+    },
+    {
+      "epoch": 24,
+      "loss": 1.238063913744849,
+      "validation_macro_f1": 0.018433600097249918
+    },
+    {
+      "epoch": 25,
+      "loss": 1.339508672018309,
+      "validation_macro_f1": 0.0470455166576231
+    },
+    {
+      "epoch": 26,
+      "loss": 1.2687944173812866,
+      "validation_macro_f1": 0.12372987740691149
+    },
+    {
+      "epoch": 27,
+      "loss": 1.2758695612082611,
+      "validation_macro_f1": 0.13122987395995434
+    },
+    {
+      "epoch": 28,
+      "loss": 1.243676572232633,
+      "validation_macro_f1": 0.05303284626393625
+    },
+    {
+      "epoch": 29,
+      "loss": 1.2605040363363318,
+      "validation_macro_f1": 0.027753858767163166
+    },
+    {
+      "epoch": 30,
+      "loss": 1.264465196712597,
+      "validation_macro_f1": 0.07572930343332966
+    },
+    {
+      "epoch": 31,
+      "loss": 1.2075244639370892,
+      "validation_macro_f1": 0.10797447161348267
+    },
+    {
+      "epoch": 32,
+      "loss": 1.2154870677638698,
+      "validation_macro_f1": 0.03454358271348749
+    },
+    {
+      "epoch": 33,
+      "loss": 1.1975510845313202,
+      "validation_macro_f1": 0.11477949331269123
+    },
+    {
+      "epoch": 34,
+      "loss": 1.206114864027178,
+      "validation_macro_f1": 0.10901731486592625
+    },
+    {
+      "epoch": 35,
+      "loss": 1.1754908046206913,
+      "validation_macro_f1": 0.04303029746123536
+    },
+    {
+      "epoch": 36,
+      "loss": 1.1449374975384892,
+      "validation_macro_f1": 0.15411127878295328
+    },
+    {
+      "epoch": 37,
+      "loss": 1.1571326046376615,
+      "validation_macro_f1": 0.006940824444443255
+    },
+    {
+      "epoch": 38,
+      "loss": 1.1989015018617786,
+      "validation_macro_f1": 0.16198444619098046
+    },
+    {
+      "epoch": 39,
+      "loss": 1.103092316034678,
+      "validation_macro_f1": 0.07080911170426787
+    },
+    {
+      "epoch": 40,
+      "loss": 1.0995604589178756,
+      "validation_macro_f1": 0.15028522502481753
+    }
+  ],
+  "models": [
+    {
+      "id": "pair-unet",
+      "name": "Pair U-Net",
+      "kind": "deep-learning",
+      "metrics": {
+        "confusion_matrix": [
+          [
+            194729,
+            43146,
+            426,
+            0,
+            1898
+          ],
+          [
+            3316,
+            9547,
+            167,
+            0,
+            429
+          ],
+          [
+            736,
+            1413,
+            57,
+            0,
+            76
+          ],
+          [
+            332,
+            734,
+            16,
+            0,
+            23
+          ],
+          [
+            1375,
+            3220,
+            75,
+            0,
+            429
+          ]
+        ],
+        "per_class_f1": [
+          0.8837519600078968,
+          0.26697800584460074,
+          0.03771088322858088,
+          0.0,
+          0.10787025396027156
+        ],
+        "per_class_iou": [
+          0.7917164719179698,
+          0.15405344349060865,
+          0.01921780175320297,
+          0.0,
+          0.05700996677740864
+        ],
+        "damage_macro_f1": 0.10313978575836329,
+        "building_iou": 0.24009493436178891,
+        "building_dice": 0.3872202485616201,
+        "evaluated_pixels": 262144,
+        "absent_classes": []
+      }
+    },
+    {
+      "id": "random-forest",
+      "name": "Random Forest",
+      "kind": "machine-learning",
+      "metrics": {
+        "confusion_matrix": [
+          [
+            167164,
+            28341,
+            18351,
+            9868,
+            16475
+          ],
+          [
+            3926,
+            5397,
+            2286,
+            989,
+            861
+          ],
+          [
+            899,
+            664,
+            364,
+            203,
+            152
+          ],
+          [
+            257,
+            394,
+            224,
+            88,
+            142
+          ],
+          [
+            1248,
+            744,
+            721,
+            172,
+            2214
+          ]
+        ],
+        "per_class_f1": [
+          0.8081548394582456,
+          0.2202902100042858,
+          0.030047878487700182,
+          0.014164989939637827,
+          0.1775247564446939
+        ],
+        "per_class_iou": [
+          0.6780703284400618,
+          0.12377872574652539,
+          0.015253100905129064,
+          0.007133014509199968,
+          0.09740859694663205
+        ],
+        "damage_macro_f1": 0.11050695871907942,
+        "building_iou": 0.1644030322173089,
+        "building_dice": 0.2823816628238166,
+        "evaluated_pixels": 262144,
+        "absent_classes": []
+      }
+    }
+  ],
+  "evaluation": "Pooled pixel confusion matrix on held-out events; four foreground classes, absent classes reported; not the official xView2 challenge score. Validation selects CNN checkpoint; test used only for final evaluation."
+}
